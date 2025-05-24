@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
 }
 
 :root {
@@ -12,6 +14,9 @@
 
 p {
   margin: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 nav {
@@ -28,6 +33,8 @@ nav a {
 }
 
 h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
   color: var(--background);
 }
 
