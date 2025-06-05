@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 130 | HTML Form - User Poll</title>
+  <link rel="stylesheet" href="styles.css/poll-form.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:ital@1&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>WDD 130 | Joshua Elemide Damilare | HTML Form - User Poll</h1>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+
+        <div class="form-item column2">
+          <label for="fullname">Full Name: </label>
+          <input type="text" id="fullname" name="fullname">
+        </div>
+
+        <div class="form-item column2">
+          <label for="email">Email: </label>
+          <input type="email" id="useremail" name="useremail">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Questions</legend>
+
+        <div class="form-item column1">
+          <label for="browser">What is Your Favorite Browser?</label>
+          <select name="browser" id="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="Microsoft Edge">Microsoft Edge</option>
+            <option value="Microsoft Edge">Safari</option>
+            <option value="Microsoft Edge">Opera Mini</option>
+          </select>
+        </div>
+
+
+        <div class="form-item column1">
+          <label for="pet">Do You Have a Household Pet? </label>
+          <input type="checkbox" name="pet" id="pet">
+        </div>
+
+        <label for="feedback">List The Places You Have Lived</label>
+        <textarea name="feedback" id="feedback" rows="1"></textarea>
+      </fieldset>
+      <button type="submit">Submit Poll</button>
+    </form>
+
+  </main>
+
+  <footer>
+    <p>©2025 | HTML Form - User Poll Activity | Joshua Elemide Damilare</p>
+  </footer>
+
+</body>
+
+</html>
