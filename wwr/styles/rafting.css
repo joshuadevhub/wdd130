@@ -24,10 +24,6 @@ header {
   color: var(--accent2-color);
 }
 
-header img {
-  justify-self: center;
-}
-
 header nav {
   display: flex;
   flex-direction: row;
@@ -169,11 +165,6 @@ footer {
   background-color: var(--primary-color);
   padding-left: 12px;
   position: relative;
-}
-
-footer div {
-  display: block;
-  /* flex-direction: column; */
 }
 
 footer div a {
