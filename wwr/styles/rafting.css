@@ -329,19 +329,26 @@ button[type="submit"]:hover {
 }
 
 .grid-layout,
-.news-layout {
+.news-layout,
+.trip-layout {
   display: grid;
   position: relative;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
-  margin: 5px auto;
+  margin: 10px auto;
 }
 
 .grid-layout h2 {
   position: absolute;
   top: -1rem;
   left: 20rem;
+}
+
+.trip-layout h2 {
+  position: absolute;
+  left: 16rem;
+  top: -10px;
 }
 
 .grid-item {
