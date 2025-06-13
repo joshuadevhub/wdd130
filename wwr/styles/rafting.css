@@ -438,3 +438,7 @@ button[type="submit"]:hover {
 h2 {
   text-align: center;
 }
+
+article h2 {
+  color: #fff;
+}
